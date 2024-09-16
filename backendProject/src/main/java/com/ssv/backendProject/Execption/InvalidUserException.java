@@ -1,0 +1,8 @@
+package com.ssv.backendProject.Execption;
+
+public class InvalidUserException extends Exception {
+
+    public InvalidUserException(String message) {
+        super(message);
+    }
+}
